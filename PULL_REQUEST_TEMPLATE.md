@@ -19,7 +19,7 @@ Briefly describe the feature
 If this is a nontrivial change please briefly
 describe your implementation so its easy for us to
 understand and review your code.
-→
+-->
 
 ## Which browser or device/OS was used for developing the feature:
 
@@ -54,9 +54,15 @@ The following check list is based on the [code review guidelines described at Co
 - [ ] Defensiveness
 - [ ] Complexity
 - [ ] Comments
-- [ ] Tests
+- [ ] Unit Tests
+- [ ] Component Tests
+- [ ] API Tests
+- [ ] UI Tests
+- [ ] Snapshot comparison Tests
 - [ ] Naming
 - [ ] Spelling
 - [ ] Commit history
 - [ ] Logging
+- [ ] Metrics
+- [ ] Tracking
 - [ ] Documentation
