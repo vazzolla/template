@@ -48,21 +48,29 @@ it.
 
 The following check list is based on the [code review guidelines described at Code review template description]. The reviewer should check off each item to confirm that it has been considered.
 
-- [ ] Style
+Coding:
 - [ ] Reusability
-- [ ] Security
 - [ ] Defensiveness
 - [ ] Complexity
+- [ ] Style
 - [ ] Comments
-- [ ] Unit Tests
-- [ ] Component Tests
-- [ ] API Tests
-- [ ] UI Tests
-- [ ] Snapshot comparison Tests
 - [ ] Naming
 - [ ] Spelling
-- [ ] Commit history
+- [ ] Security
+
+Features:
 - [ ] Logging
 - [ ] Metrics
 - [ ] Tracking
+
+Testing:
+- [ ] Unit Tests
+- [ ] Component Tests
+- [ ] Snapshot comparison Tests
+- [ ] E2E UI Tests
+
+Other:
+- [ ] Commit history
+- [ ] PR name
+- [ ] Jira ticket number
 - [ ] Documentation
